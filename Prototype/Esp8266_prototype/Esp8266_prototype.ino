@@ -3,11 +3,13 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 
+// Wifi credentials
 #define WIFI_SSID "janakiact"
 #define WIFI_PASSWORD "9840100640"
 
-#define FIREBASE_HOST "air-quality-dashboard.firebaseio.com"
-#define FIREBASE_AUTH "muqRjG3idPKRueg1X4DWFuwKtbOs07siYj9CPJwo"
+// Firebase credentials
+#define FIREBASE_HOST "air-duino.firebaseio.com/"
+#define FIREBASE_AUTH "Ir95PUjThcwTjjLS3ajWYlzOw1Gom0z4pn5AKRFu"
 
 void setup() {
   Serial.begin(115200);
